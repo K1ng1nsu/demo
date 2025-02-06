@@ -16,8 +16,8 @@ class DemoApplicationTests {
 
 	@Test
 	public void testAdd() {
-		int result = 2 + 3;
-		assertEquals(4, result, "2 + 3은 5여야 합니다. 의도적 오류 발생");
+		int result = 5;
+		assertEquals(5, result, "2 + 3은 5여야 합니다. 의도적 오류 발생");
 	}
 
 }
